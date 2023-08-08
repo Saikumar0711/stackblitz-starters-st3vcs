@@ -1,0 +1,31 @@
+.conatiner {
+  background-image: url('https://github.com/Saikumar0711/MyWAimages/blob/main/main%20background.jpg');
+  background-color: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.main {
+  width: 93rem;
+  height: 43rem;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav {
+  width: calc(93rem-67.5%);
+  height: 43rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+.conversations {
+  width: calc(93rem-32.5%);
+  height: 43rem;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
